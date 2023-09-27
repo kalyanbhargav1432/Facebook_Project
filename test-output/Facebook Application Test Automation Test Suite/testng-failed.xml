@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Facebook Application Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="facebook Application Test Cases(failed)">
+    <classes>
+      <class name="com.facebook.qa.testcases.HomePageTest">
+        <methods>
+          <include name="verifyClickOnProfileTest"/>
+          <include name="setUp"/>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="verifyProfileNameTest"/>
+          <include name="AfterMethod"/>
+          <include name="verifyFindFriendsPageTest"/>
+          <include name="verifySavedPageTest"/>
+        </methods>
+      </class> <!-- com.facebook.qa.testcases.HomePageTest -->
+      <class name="com.facebook.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="loginPageTitleTest"/>
+          <include name="setUp"/>
+          <include name="AfterMethod"/>
+        </methods>
+      </class> <!-- com.facebook.qa.testcases.LoginPageTest -->
+      <class name="com.facebook.qa.testcases.FindFriendsPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyFriendsPageTitleTest"/>
+          <include name="ClickOnFriendRequestLinkTest"/>
+          <include name="ClickOnBirthdayLinkTest"/>
+          <include name="ClickOnSuggestionsLinkTest"/>
+          <include name="ClickOnCustomListsLinkTest"/>
+          <include name="AfterMethod"/>
+        </methods>
+      </class> <!-- com.facebook.qa.testcases.FindFriendsPageTest -->
+    </classes>
+  </test> <!-- facebook Application Test Cases(failed) -->
+</suite> <!-- Failed suite [Facebook Application Test Automation Test Suite] -->

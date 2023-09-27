@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-27T18:57:33 IST" name="Default suite" finished-at="2023-09-27T18:57:50 IST" duration-ms="16451">
+    <groups>
+    </groups>
+    <test started-at="2023-09-27T18:57:33 IST" name="Default test" finished-at="2023-09-27T18:57:50 IST" duration-ms="16451">
+      <class name="com.facebook.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.facebook.qa.testcases.HomePageTest@3c9754d8]" started-at="2023-09-27T18:57:33 IST" name="setUp" finished-at="2023-09-27T18:57:37 IST" duration-ms="4352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProfileNameTest()[pri:2, instance:com.facebook.qa.testcases.HomePageTest@3c9754d8]" started-at="2023-09-27T18:57:37 IST" name="verifyProfileNameTest" finished-at="2023-09-27T18:57:44 IST" duration-ms="6580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProfileNameTest -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:com.facebook.qa.testcases.HomePageTest@3c9754d8]" started-at="2023-09-27T18:57:44 IST" name="AfterMethod" finished-at="2023-09-27T18:57:50 IST" duration-ms="5454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- com.facebook.qa.testcases.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
